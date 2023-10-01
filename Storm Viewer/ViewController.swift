@@ -16,7 +16,6 @@ class ViewController: UITableViewController {
         
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
-        tableView.register(KritiTableViewCell.self, forCellReuseIdentifier: "CustomCell")
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -62,4 +61,5 @@ class ViewController: UITableViewController {
 
 class KritiTableViewCell: UITableViewCell {
   
+    @IBOutlet var stormLabel: UILabel!
 }

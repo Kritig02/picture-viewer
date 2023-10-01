@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B9CC4C2AC943A200666A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CC4B2AC943A200666A1A /* Main.storyboard */; };
 		01D2A0F42AC6206F0039FD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2A0F32AC6206F0039FD92 /* AppDelegate.swift */; };
 		01D2A0F62AC6206F0039FD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2A0F52AC6206F0039FD92 /* SceneDelegate.swift */; };
 		01D2A0F82AC6206F0039FD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D2A0F72AC6206F0039FD92 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B9CC4B2AC943A200666A1A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		01D2A0F02AC6206F0039FD92 /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D2A0F32AC6206F0039FD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01D2A0F52AC6206F0039FD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				01D2A0F52AC6206F0039FD92 /* SceneDelegate.swift */,
 				01D2A0F72AC6206F0039FD92 /* ViewController.swift */,
 				01D2A11E2AC6878F0039FD92 /* DetailViewController.swift */,
+				01B9CC4B2AC943A200666A1A /* Main.storyboard */,
 				01D2A0FC2AC620700039FD92 /* Assets.xcassets */,
 				01D2A0FE2AC620700039FD92 /* LaunchScreen.storyboard */,
 				01D2A1012AC620700039FD92 /* Info.plist */,
@@ -173,6 +176,7 @@
 				01D2A1192AC634490039FD92 /* nssl0043.jpg in Resources */,
 				01D2A11B2AC634490039FD92 /* nssl0034.jpg in Resources */,
 				01D2A1122AC634490039FD92 /* nssl0049.jpg in Resources */,
+				01B9CC4C2AC943A200666A1A /* Main.storyboard in Resources */,
 				01D2A1172AC634490039FD92 /* nssl0041.jpg in Resources */,
 				01D2A1182AC634490039FD92 /* nssl0042.jpg in Resources */,
 				01D2A1002AC620700039FD92 /* LaunchScreen.storyboard in Resources */,
