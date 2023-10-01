@@ -15,6 +15,7 @@ class DetailViewController: UIViewController {
     var selectedImage: String?
     var totalImages: Int = 0
     var imageIndex: Int = 0
+    var shareImageName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,7 @@ class DetailViewController: UIViewController {
         
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
+            shareImageName = "Storm " + imageToLoad.getId(replace: ".jpg", with: "", length: 2)
         }
     }
     
@@ -33,7 +35,7 @@ class DetailViewController: UIViewController {
             print("No image found")
             return
         }
-        let ac = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        let ac = UIActivityViewController(activityItems: [shareImageName, image], applicationActivities: [])
         ac.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(ac, animated: true)
     }
