@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UITableViewController {
-
+    
     var pictures = [String]()
     
     override func viewDidLoad() {
@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
         
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .action, target: self, action: #selector(shareApp))
         
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
@@ -27,6 +28,12 @@ class ViewController: UITableViewController {
             }
         }
         pictures.sort()
+    }
+    
+    @objc func shareApp(){
+        let ac = UIActivityViewController(activityItems: ["If you like this app, do consider sharing it with your friends!!"], applicationActivities: [])
+        ac.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(ac, animated: true)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
