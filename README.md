@@ -36,3 +36,12 @@ This section provides instructions on how to set up the project on your local ma
 
 ```bash
 https://github.com/Kritig02/picture-viewer.git
+```
+
+### License
+
+This project is open source and available under the MIT License.
+
+### Contact
+
+If you have any questions or want to reach out to me, you can find me on [GitHub](https://github.com/Kritig02/).
