@@ -35,4 +35,4 @@ This section provides instructions on how to set up the project on your local ma
 1. Clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/storm-viewer.git
+https://github.com/Kritig02/picture-viewer.git
